@@ -80,7 +80,7 @@ def main():
         # s3 = s3_connection.s3_operations("bucket-name", "accesskey", "secretkey")
         # df = s3.fetch_file_from_s3("data.csv")
         #data.csv coming from local
-        df=df = pd.read_csv("notebooks\data.csv")
+        df=df = pd.read_csv("notebooks/data.csv")
 
 
 
