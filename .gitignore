@@ -208,6 +208,9 @@ __marimo__/
 
 cred.txt
 local_s3/
-data/
+# Ignore dataset, not code
+data/*
+!src/data/
+
 models/
 src/model/check_model_registry.py
