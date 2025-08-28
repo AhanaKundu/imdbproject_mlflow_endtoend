@@ -68,12 +68,15 @@ def normalize_text(text):
     return text
 
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 # Load environment variables from .env file
-load_dotenv()
-mlflow_uri= os.getenv("mlflow_uri")
-repo_owner= os.getenv("repo_owner")
-repo_name= os.getenv("repo_name")
+#load_dotenv()
+# mlflow_uri= os.getenv("mlflow_uri")
+# repo_owner= os.getenv("repo_owner")
+# repo_name= os.getenv("repo_name")
+mlflow_uri= "https://dagshub.com/AhanaKundu/imdbproject_mlflow_endtoend.mlflow"
+repo_owner= "AhanaKundu"
+repo_name= "imdbproject_mlflow_endtoend"
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
