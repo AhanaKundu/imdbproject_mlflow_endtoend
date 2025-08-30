@@ -1,5 +1,4 @@
-# imdbproject_mlflow_endtoend
-# Capstone ML Project: Flask App on AWS EKS with MLFlow & DVC
+# imdb_sentiment_classification_mlflow_endtoend
 
 ![Project Status](https://img.shields.io/badge/Status-In_Progress-yellow)
 
@@ -38,4 +37,17 @@ The project is designed for **end-to-end reproducibility**, enabling you to trac
 ├── requirements.txt
 ├── Dockerfile
 └── .github/workflows/ci.yaml   # CI/CD workflow
+
+Tech Stack:
+Python 3.10
+Flask for API
+Docker for containerization
+AWS EKS for orchestration
+MLFlow for experiment tracking
+DVC for reproducible pipelines
+GitHub Actions for CI/CD
+
+
+
+
 
